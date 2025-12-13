@@ -1,0 +1,11 @@
+Creating DataFrames from Scratch - Exercise #4
+There's no need to worry about assigning index values at this stage. Remember to use the print() function to display the desired output.
+
+Use pandas to create the following DataFrame, and call it df:
+
+
+
+import pandas as pd 
+data=[["Amy White",50,5],["Jack Stewart",53,8],["Richard Lauderdale",35,3],["Sara Johnson",43,10]]
+df=pd.DataFrame(data,columns=["Name","Age","Working Experience (Yrs.)"])
+print(df)
