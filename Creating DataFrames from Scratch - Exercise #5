@@ -1,0 +1,12 @@
+Creating DataFrames from Scratch - Exercise #5
+Modify the provided code to add integers starting from 1 in ascending order as index values.
+
+
+
+import pandas as pd
+data = {
+    "Name":['Amy White', 'Jack Stewart', 'Richard Lauderdale', 'Sara Johnson'], 
+    "Age":[50, 53, 35, 43], 
+    "Working Experience (Yrs.)":[5,8,3,10]}
+df = pd.DataFrame(data,index=[1,2,3,4])
+print(df)
