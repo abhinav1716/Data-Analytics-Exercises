@@ -1,0 +1,8 @@
+More on Working with Indices in Python - Exercise #4
+Create and display a pandas Series object from an array that contains the following values: 44, 54, 65, 35. Call it series_age. Display the created object.
+
+
+import pandas as pd 
+import numpy as np 
+series_age=pd.Series(np.array([44,54,65,35]))
+print(series_age)
