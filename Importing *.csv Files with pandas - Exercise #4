@@ -1,0 +1,14 @@
+Importing *.csv Files with pandas - Exercise #4
+You are provided with a text file named 'Lending-company-100. csv'.
+
+1. Using the 'pandas' library, load the contents of this *.csv file into a DataFrame named my_csv_data.
+
+2. Use the print() function to showcase the content of the DataFrame.
+
+
+
+import pandas as pd
+
+filename = 'Lending-company-100.csv'
+my_csv_data=pd.read_csv(filename)
+print(my_csv_data)
