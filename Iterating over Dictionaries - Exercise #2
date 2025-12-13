@@ -1,0 +1,23 @@
+
+Iterating over Dictionaries - Exercise #2
+How much did Jan spent on products that cost less than 5 dollars?
+
+
+prices = {
+    "box_of_spaghetti" : 4,
+    "lasagna"  : 5,
+    "hamburger" : 2
+   }
+quantity = {
+    "box_of_spaghetti" : 6,
+    "lasagna"  : 10,
+    "hamburger" : 0
+    }
+
+money_spent = 0
+for i in prices:
+    if prices[i]<5:
+        money_spent=money_spent+(prices[i]*quantity[i])
+    else:
+        break
+print(money_spent)
