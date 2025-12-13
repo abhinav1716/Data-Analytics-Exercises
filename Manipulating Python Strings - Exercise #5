@@ -1,0 +1,12 @@
+Manipulating Python Strings - Exercise #5
+In the provided code, place the combination \t at the appropriate position to separate the two sentences with a tab space, instead of simply combining them.
+
+
+
+car_shop = ['Fast Cars', 'Elegant Cars']
+car_brand = ['Audi', 'Ford']
+number_of_cars_for_sale = [1000, 1200]
+price_of_model = 37500.50
+
+print ("The \"%s\" shop are expecting to sell %d units of the new %s model next year." % (car_shop[0], number_of_cars_for_sale[0], car_brand[0]) + 
+       " \tThe \"%s\" shop are expecting to sell %d units of the new %s model next year." % (car_shop[1], number_of_cars_for_sale[1], car_brand[1]))
