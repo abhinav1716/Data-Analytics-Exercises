@@ -1,0 +1,9 @@
+
+Working with Attributes in Python - Exercise #7
+Display the Series itself, to see the name appear below the data values it contains.
+
+import pandas as pd
+
+work_experience_years = pd.Series([5,8,3,10])
+work_experience_years.name = "Work Experience (Yrs.)"
+print(work_experience_years)
