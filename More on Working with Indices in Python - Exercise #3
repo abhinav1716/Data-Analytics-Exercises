@@ -1,0 +1,9 @@
+More on Working with Indices in Python - Exercise #3
+Extract the first index value to verify that it is of the string data type.
+
+
+
+import pandas as pd
+
+employees_work_exp = pd.Series({'Martin':8, 'George':5})
+print(type(employees_work_exp.index[0]))
