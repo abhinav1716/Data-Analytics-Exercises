@@ -1,0 +1,7 @@
+Working with Attributes in Python - Exercise #1
+Create a Pandas Series object, called work_experience_years, which should contain the following integers in the given order: 5, 8, 3, and 10.
+
+
+import pandas as pd
+work_experience_years=pd.Series([5,8,3,10])
+print(work_experience_years)
