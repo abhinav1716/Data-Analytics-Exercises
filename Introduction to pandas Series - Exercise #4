@@ -1,0 +1,10 @@
+Introduction to pandas Series - Exercise #4
+Confirm the object employee_names_Series is of a Series type.
+
+Please remember to use the print() function to print out the desired output.
+
+
+import pandas as pd
+employee_names = ['Amy White', 'Jack Stewart', 'Richard Lauderdale', 'Sara Johnson']
+employee_names_Series = pd.Series(employee_names)
+print(type(employee_names_Series))
