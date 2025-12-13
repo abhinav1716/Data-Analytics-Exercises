@@ -1,0 +1,8 @@
+
+Using Methods - Exercise #4
+Currently, how many elements are there in the Numbers list?
+
+
+
+Numbers = [15, 40, 50, 100, 115, 140]
+len(Numbers)
