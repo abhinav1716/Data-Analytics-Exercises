@@ -1,0 +1,18 @@
+NumPy Basics - Exercise #1
+1. Import the NumPy library using the conventional alias.
+
+2. Create a one-dimensional NumPy array containing the following values in order:
+
+4, 5, 7, 10
+
+2. Print the contents of the array.
+
+3. Print the type of the variable to verify that it is a numpy.ndarray
+
+
+
+
+import numpy as np
+array1=np.array([4,5,7,10])
+print(array1)
+print(np.ndarray)
