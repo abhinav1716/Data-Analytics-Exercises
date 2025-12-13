@@ -1,0 +1,22 @@
+Importing Data with NumPy - Exercise #2
+Use the NumPy function np.genfromtxt() to load the "Lending-Company-Total-Price-100.csv" file and display its contents. To solve the task, specify a comma as the delimiter in the function call.
+
+
+
+Note: Please remember what the following line of code does — it configures NumPy's print settings to improve output readability:
+
+np.set_printoptions(suppress = True, linewidth = 150)
+
+suppress=True prevents small floating-point numbers from being displayed in scientific notation.
+
+linewidth=150 increases the number of characters per line before wrapping, helping to display more of the array on a single line.
+
+
+
+import numpy as np
+
+np.set_printoptions(suppress = True, linewidth = 150)
+
+lending_co_TP = np.genfromtxt("Lending-Company-Total-Price-100.csv",delimiter=',')
+
+print(lending_co_TP)
