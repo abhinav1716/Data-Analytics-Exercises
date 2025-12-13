@@ -1,0 +1,8 @@
+
+Introduction to pandas Series - Exercise #2
+Verify the employee_names object is a list.
+
+
+
+employee_names = ['Amy White', 'Jack Stewart', 'Richard Lauderdale', 'Sara Johnson']
+print(type(employee_names))
