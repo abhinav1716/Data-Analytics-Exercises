@@ -1,0 +1,8 @@
+
+Using Methods - Exercise #2
+With the help of the .extend() method, add the numbers 115 an 140 to the Numbers list
+
+
+Numbers = [15, 40, 50, 100]
+Numbers.extend([115,140])
+print(Numbers)
