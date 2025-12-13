@@ -1,0 +1,7 @@
+
+Strings - Exercise #2
+Produce an output equal to It's cool, isn't it? .
+
+
+
+print("It's cool, isn't it?")
