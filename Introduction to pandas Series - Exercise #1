@@ -1,0 +1,16 @@
+Introduction to pandas Series - Exercise #1
+Create a list called 'employee_names', which should contain the following names:
+
+Amy White
+
+Jack Stewart
+
+Richard Lauderdale
+
+Sara Johnson
+
+
+
+
+employee_names=["Amy White","Jack Stewart","Richard Lauderdale","Sara Johnson"]
+print(employee_names)
