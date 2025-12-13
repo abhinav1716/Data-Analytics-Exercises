@@ -1,0 +1,10 @@
+Dictionaries - Exercise #1
+This is the menu of a close-by restaurant:
+
+Menu = {'meal_1':'Spaghetti', 'meal_2':'Fries', 'meal_3':'Hamburger', 'meal_4':'Lasagna'}
+
+What is the second meal in the list?
+
+
+Menu = {'meal_1':'Spaghetti', 'meal_2':'Fries', 'meal_3':'Hamburger', 'meal_4':'Lasagna'}
+Menu['meal_2']
