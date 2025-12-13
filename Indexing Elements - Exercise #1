@@ -1,0 +1,5 @@
+Indexing Elements - Exercise #1
+Extract the letter 'B' from "Bingo!"
+
+
+"Bingo!"[0]
