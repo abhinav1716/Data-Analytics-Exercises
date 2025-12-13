@@ -1,0 +1,8 @@
+String Accessors - Exercise #3
+Use the relevant string accessor twice – once with the .split() method and indexing (within parentheses) to remove the first names of all individuals in the provided Series. Store the obtained output in a new variable called last_names.
+
+
+import pandas as pd
+names = pd.Series(["Martin Peterson", "John Fitzpatrick", "Kate Cruz"])
+last_names=names.str.split().str[1]
+print(last_names)
