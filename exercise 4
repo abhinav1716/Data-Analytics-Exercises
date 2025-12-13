@@ -1,0 +1,8 @@
+On the same line, create four new variables: a, b, c, and d, that are equal to 10, 20, 30, and 40, respectively.
+
+Tell the computer to show you the value corresponding to the variable b.
+
+Do the same for d.
+a,b,c,d=10,20,30,40
+print(b)
+print(d)
