@@ -1,0 +1,17 @@
+Manipulating Python Strings - Exercise #1
+Create four variables containing information on names of local car shops (car_shop), brands of cars expected to be available for sale next year (car_brand), the specific number of cars to be sold (number_of_cars_for_sale), and their prices (price_of_model) as follows:
+
+car shops - 'Fast Cars', 'Elegant Cars'
+
+car brands - 'Audi', 'Ford'
+
+number of cars for sale - 1000, 1200
+
+price of model - 37500.50
+
+
+
+car_shop=['Fast Cars', 'Elegant Cars']
+car_brand=['Audi','Ford']
+number_of_cars_for_sale=[1000,1200]
+price_of_model=37500.50
