@@ -1,0 +1,10 @@
+
+Conditional Statements and Loops - Exercise #2
+Create a small program that runs a loop over all values from 1 to 30. Let it print all odd numbers on the same line, and in the place of the even numbers, it should print "Even". Use the range() function to help solve this exercise.
+
+
+for i in range(31):
+    if i%2==0:
+        print("Even",end=" ")
+    else:
+        print(i,end=" ")
