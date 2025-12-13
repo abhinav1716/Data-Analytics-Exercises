@@ -1,0 +1,14 @@
+Importing Data with the "index_col" Parameter - Exercise #2
+You are provided with a CSV file named 'Lending-company-100.csv'.
+
+1. Load the entire contents of the file into a DataFrame named my_csv_data, using LoanID as the index column.
+
+2. Use the print() function to display the complete DataFrame.
+
+
+
+import pandas as pd
+
+filename = 'Lending-company-100.csv'
+my_csv_data=pd.read_csv(filename,index_col="LoanID")
+print(my_csv_data)
