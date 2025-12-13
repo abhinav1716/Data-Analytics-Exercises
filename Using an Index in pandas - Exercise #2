@@ -1,0 +1,7 @@
+Using an Index in pandas - Exercise #2
+Verify the type of workers_age is a dictionary.
+
+
+
+workers_age = {'Amy White':50, 'Jack Stewart':53, 'Richard Lauderdale':35, 'Sara Johnson':43}
+print(type(workers_age))
