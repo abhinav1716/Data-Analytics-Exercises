@@ -1,0 +1,5 @@
+
+Numbers and Boolean Values - Exercise #5
+Turn 0.99 into an integer.
+
+int(0.99)
