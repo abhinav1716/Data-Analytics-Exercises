@@ -1,0 +1,13 @@
+Creating DataFrames from Scratch - Exercise #2
+There's no need to worry about assigning index values at this stage. Please remember to use the print() function to display the desired output.
+
+Use pandas to create the following DataFrame, and call it df:
+
+
+
+import pandas as pd 
+data=[{"Name":"Amy White","Age":50,"Working Experience (Yrs.)":5},
+        {"Name":"Jack Stewart","Age":53,"Working Experience (Yrs.)":8},
+        {"Name":"Richard Lauderdale","Age":35,"Working Experience (Yrs.)":3},{"Name":"Sara Johnson","Age":43,"Working Experience (Yrs.)":10}]
+df=pd.DataFrame(data)
+print(df)
