@@ -1,0 +1,9 @@
+Importing *.json Files - Exercise #2
+You are provided with a dictionary named prices_per_product, where the keys are product names and the values are their respective prices.
+
+Use the print() function to display and review the contents of the dictionary.
+
+
+prices_per_product = '{"Product A": 22250, "Product B" : 16600, "Product C":15600}'
+print(prices_per_product)
+
