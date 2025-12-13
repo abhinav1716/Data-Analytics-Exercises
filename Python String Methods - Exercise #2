@@ -1,0 +1,14 @@
+Python String Methods - Exercise #2
+Use the .replace() method to change the word "Administrative" with "Selling", thus making the variable s contain the string "Selling expenses".
+
+s = 'Administrative expenses'
+As you are doing that, store the output in a new variable called s1.
+
+After assigning the value, print out the s1 variable.
+
+
+
+
+s = 'Administrative expenses'
+s1=s.replace('Administrative','Selling')
+print(s1)
