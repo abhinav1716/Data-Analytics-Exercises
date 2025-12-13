@@ -1,0 +1,16 @@
+NumPy Basics - Exercise #3
+The NumPy library has been imported using the conventional alias, and the two-dimensional array array_2 has been created using two lists. Its column-wise mean has been computed and displayed.
+
+Now, modify the last line of code to ensure that all values are returned as integers.
+
+Execute the code to compare the results between the two calculations of the column-wise mean of array_2.
+
+
+import numpy as np
+array_2 = np.array([[4,5],[7,10]])
+
+# Compute and display the column-wise mean of array_2
+print(np.mean(array_2, axis = 0))
+
+# Compute the column-wise mean and cast the result to integer
+print(np.mean(array_2, axis = 0,dtype=int))
