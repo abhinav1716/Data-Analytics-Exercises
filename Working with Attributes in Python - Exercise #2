@@ -1,0 +1,11 @@
+Working with Attributes in Python - Exercise #2
+Convert the work_experience_years object from a Pandas Series into a NumPy array. Accomplish this task without overwriting the contents of work_experience_years.
+
+
+
+import pandas as pd
+import numpy as np
+
+work_experience_years = np.array(pd.Series([5,8,3,10]))
+print(work_experience_years)
+
