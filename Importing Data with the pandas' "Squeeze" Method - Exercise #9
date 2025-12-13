@@ -1,0 +1,17 @@
+Importing Data with the pandas' "Squeeze" Method - Exercise #9
+You are provided with a CSV file named 'Lending-company-100.csv'.
+
+
+
+1. Read only the 'Product' column from the file into a variable named data.
+
+2 .Squeeze it into an object named product_data by using a string argument in the relevant pandas method.
+
+3. Use the print() function to display the contents of product_data.
+
+
+import pandas as pd
+data=pd.read_csv("Lending-company-100.csv",usecols=["Product"])
+product_data=data.squeeze("columns")
+print(product_data)
+
