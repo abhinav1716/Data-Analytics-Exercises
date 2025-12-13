@@ -1,0 +1,11 @@
+
+Importing Data with the pandas' "Squeeze" Method - Exercise #4
+You are provided with a CSV file named 'Lending-company-100.csv'. The contents of its 'Product' column have been loaded into an object named df_usecols.
+
+Use the print() function to display the type of the df_usecols variable.
+
+import pandas as pd
+
+df_usecols = pd.read_csv('Lending-company-100.csv', usecols = ['Product'])
+print(type(df_usecols))
+
