@@ -1,0 +1,167 @@
+Python String Methods - Exercise #3
+Check if the string s currently starts with "Admin"
+
+
+s = 'Administrative expenses'
+print(s.startswith('Admin'))
+
+
+
+Python String Methods - Exercise #4
+Verify that the string stored in s1 now starts with "Sell".
+
+
+
+s = 'Administrative expenses'
+s1 = s.replace('Administrative', 'Selling')
+print(s1.startswith('Sell'))
+
+
+
+Python String Methods - Exercise #5
+Will you receive a 'False' output if you verify that the string stored in s1 now starts with "sell' instead of "Sell'?
+
+
+
+s = 'Administrative expenses'
+s1 = s.replace('Administrative', 'Selling')
+print(s1.startswith('sell'))
+
+
+
+
+Python String Methods - Exercise #6
+Does the expression in s1 end at "diture"?
+
+
+s = 'Administrative expenses'
+s1 = s.replace('Administrative', 'Selling')
+print(s1.endswith('diture'))
+
+
+
+Python String Methods - Exercise #7
+Verify that the string in s1 actually ends with 'ses'.
+
+s = 'Administrative expenses'
+s1 = s.replace('Administrative', 'Selling')
+print(s1.endswith('ses'))
+
+
+
+Python String Methods - Exercise #8
+Use a Python method without passing any arguments into it to return a list containing the words from s1 as its elements.
+
+
+s = 'Administrative expenses'
+s1 = s.replace('Administrative', 'Selling')
+print(s1.split())
+
+
+
+Python String Methods - Exercise #9
+Generate the same output that you would get from using the split() method, but this time, pass an argument within the parentheses of the method.
+
+
+s = 'Administrative expenses'
+s1 = s.replace('Administrative', 'Selling')
+print(s1.split(' '))
+
+
+
+Python String Methods - Exercise #10
+Split the s1 string by the letter 's' to explore a list with what elements you will obtain.
+
+
+s = 'Administrative expenses'
+s1 = s.replace('Administrative', 'Selling')
+print(s1.split('s'))
+
+
+
+Python String Methods - Exercise #11
+Create and print out a string called s2 containing the following text:
+
+'personal ID, first name, last name, date of birth, place of birth, city of birth'.
+
+
+s2='personal ID, first name, last name, date of birth, place of birth, city of birth'
+print(s2)
+
+
+
+Python String Methods - Exercise #12
+Use a Python's method to split the text of s2 into different elements as separated by the comma symbol.
+
+
+s2 = "personal ID, first name, last name, date of birth, place of birth, city of birth"
+print(s2.split(','))
+
+
+Python String Methods - Exercise #13
+How many characters are there in the s2 string currently?
+
+
+s2 = "personal ID, first name, last name, date of birth, place of birth, city of birth"
+print(len(s2))
+
+
+
+Python String Methods - Exercise #14
+Store the list obtained after splitting the elements from s2 in a variable called list_01, and then print its output.
+
+
+s2 = "personal ID, first name, last name, date of birth, place of birth, city of birth"
+list_01=s2.split(',')
+print(list_01)
+
+
+Python String Methods - Exercise #15
+How many elements are there in the list_01 list currently?
+
+
+s2 = "personal ID, first name, last name, date of birth, place of birth, city of birth"
+list_01 = s2.split(',')
+print(len(list_01))
+
+
+
+Python String Methods - Exercise #16
+Use a Python method to convert all the letters in the string s to lowercase and display the result.
+
+s = 'Administrative expenses'
+print(s.lower())
+
+
+Python String Methods - Exercise #17
+Use a Python method to convert all the letters in the string s to uppercase and display the result.
+
+s = 'Administrative expenses'
+print(s.upper())
+
+
+
+Python String Methods - Exercise #18
+Apply a Python method that will return the first letter of each word of s as uppercase, while the rest of the letters remain lowercase.
+
+s = 'Administrative expenses'
+print(s.title())
+
+
+Python String Methods - Exercise #19
+Create and visualize a string named name1 that contains the text:
+
+'Martin Peterson   '.
+
+Please note that there are three trailing spaces at the end of the string that should not be ignored.
+
+name1='Martin Peterson   '
+print(name1)
+
+
+
+Python String Methods - Exercise #20
+Use a Python string method to remove the whitespaces at the right end of the string.
+
+name1 = 'Martin Peterson   '
+print(name1.strip())
