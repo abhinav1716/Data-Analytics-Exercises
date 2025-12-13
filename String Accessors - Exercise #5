@@ -1,0 +1,8 @@
+String Accessors - Exercise #5
+Check which of the names in last_names contain the letter s. If you've worked correctly, you should obtain a True value only for the first element of the last_names Series.
+
+
+import pandas as pd
+names = pd.Series(["Martin Peterson", "John Fitzpatrick", "Kate Cruz"])
+last_names = names.str.split().str[1]
+print(last_names.str.contains('s'))
