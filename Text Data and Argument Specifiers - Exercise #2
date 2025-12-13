@@ -1,0 +1,19 @@
+Text Data and Argument Specifiers - Exercise #2
+Use the string and integer argument specifiers, along with indexing, to create the following sentence using the four variables listed below.
+
+"The "Fast Cars" shop are expecting to sell 1000 units of the new Audi model at 37500.50 per unit next year."
+
+car_shop = ['Fast Cars', 'Elegant Cars']
+car_brand = ['Audi', 'Ford']
+number_of_cars_for_sale = [1000, 1200]
+price_of_model = 37500.50
+Please remember to use the print() function to print out the desired output.
+
+
+
+
+car_shop = ['Fast Cars', 'Elegant Cars']
+car_brand = ['Audi', 'Ford']
+number_of_cars_for_sale = [1000, 1200]
+price_of_model = 37500.50
+print("The \"%s\" shop are expecting to sell %d units of the new %s model at %.2f per unit next year."%(car_shop[0],number_of_cars_for_sale[0],car_brand[0],round(price_of_model,2)))
