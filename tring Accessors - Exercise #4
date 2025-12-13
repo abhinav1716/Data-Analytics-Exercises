@@ -1,0 +1,8 @@
+tring Accessors - Exercise #4
+Check the type of the last_names object.
+
+
+import pandas as pd
+names = pd.Series(["Martin Peterson", "John Fitzpatrick", "Kate Cruz"])
+last_names = names.str.split().str[1]
+print(type(last_names))
