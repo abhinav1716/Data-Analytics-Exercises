@@ -1,0 +1,14 @@
+Using an Index in pandas - Exercise #1
+Create a dictionary named workers_age where the keys are the names of the employees and their corresponding ages are the integer values. The employees' names and their ages are as follows:
+
+Amy White, 50
+
+Jack Stewart, 53
+
+Richard Lauderdale, 35
+
+Sara Johnson, 43.
+
+
+workers_age={"Amy White":50,"Jack Stewart":53,"Richard Lauderdale":35,"Sara Johnson":43}
+print(workers_age)
