@@ -1,0 +1,8 @@
+Another Way to Define a Function - Exercise #1
+Define a function called exponentiation_exp_2(x) that states the value of the argument accompanied by the phrase "Raised to the power of 2:" and returns a value equal to its argument raised to the power of 2. This time, use a new variable, called result, in the body of the Function. Call the function with some argument to verify it works properly.
+
+def exponentiation_exp_2(x):
+    res=x**2 
+    print("Raised to the power of 2:")
+    return res 
+exponentiation_exp_2(3)
