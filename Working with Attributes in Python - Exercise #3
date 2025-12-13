@@ -1,0 +1,9 @@
+Working with Attributes in Python - Exercise #3
+Check the type of the following object: work_experience_years.to_numpy().
+
+
+
+import pandas as pd
+
+work_experience_years = pd.Series([5,8,3,10])
+print(type(work_experience_years.to_numpy()))
