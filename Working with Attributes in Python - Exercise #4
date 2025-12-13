@@ -1,0 +1,9 @@
+Working with Attributes in Python - Exercise #4
+Use an attribute to find the number of elements in the underlying data (work_experience_years).
+
+
+
+import pandas as pd
+
+work_experience_years = pd.Series([5,8,3,10])
+print(work_experience_years.size)
