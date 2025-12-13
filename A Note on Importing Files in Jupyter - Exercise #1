@@ -1,0 +1,16 @@
+A Note on Importing Files in Jupyter - Exercise #1
+Python provides an operating-system-neutral way to obtain the path of the current working directory.
+
+Complete the code on line 8, and then use the print() function to display the contents of the os_dir variable (which stands for Operating System Directory) - this will give you the path to the directory you are currently working in.
+
+
+import os, inspect
+
+if '__file__' not in locals():
+    fx = inspect.getframeinfo(inspect.currentframe())[0]
+else:
+    fx = __file__  
+    
+os_dir =os.path.dirname(os.path.abspath(fx)) 
+
+print(os_dir)
