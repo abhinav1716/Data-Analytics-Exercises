@@ -1,0 +1,18 @@
+Using the .format() Method - Exercise #5
+Obtain the following output:
+
+"Company B expects their next year's sales of Q4 to remain the same."
+
+while referring to the following three lists:
+
+companies = ['Company A', 'Company B']
+quarter = [1, 2, 3, 4]
+sales_performance_prediction = ['increase', 'decrease', 'remain the same'] 
+
+
+
+
+companies = ['Company A', 'Company B']
+quarter = [1, 2, 3, 4]
+sales_performance_prediction = ['increase', 'decrease', 'remain the same'] 
+print("{comp} expects their next year's sales of Q{quat} to {sal}.".format(comp=companies[1],quat=quarter[3],sal=sales_performance_prediction[2]))
