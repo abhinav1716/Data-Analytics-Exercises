@@ -1,0 +1,4 @@
+Write a line of code to print Big Houses by passing each word as a separate argument to the print() function, ensuring there is a space between them in the output.
+
+
+print("Big", "Houses")
