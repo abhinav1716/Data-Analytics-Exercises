@@ -1,0 +1,6 @@
+
+Strings - Exercise #4
+Produce an output equal to Click "OK"
+
+
+print('Click "OK"')
