@@ -1,0 +1,7 @@
+Using Methods - Exercise #1
+Append the number 100 to the Numbers list
+
+
+Numbers = [15, 40, 50]
+Numbers.append(100)
+print(Numbers)
