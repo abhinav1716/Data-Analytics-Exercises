@@ -1,0 +1,9 @@
+More on Working with Indices in Python - Exercise #5
+Retrieve the index values of series_age to see they are numbers, which would indicate that they represent positioned data.
+
+
+import pandas as pd
+import numpy as np
+
+series_age = pd.Series(np.array([44, 54, 65, 35]))
+print(series_age.index)
