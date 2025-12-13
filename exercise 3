@@ -1,0 +1,2 @@
+#On the same line, create four new variables: a, b, c, and d, that are equal to 10, 20, 30, and 40, respectively
+a,b,c,d=(10,20,30,40)
