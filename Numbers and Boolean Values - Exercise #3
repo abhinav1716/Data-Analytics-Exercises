@@ -1,0 +1,7 @@
+
+
+Numbers and Boolean Values - Exercise #3
+Check the type of the value 0.99.
+
+
+type(0.99)
