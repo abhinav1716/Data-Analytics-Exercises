@@ -1,0 +1,14 @@
+Using the .format() Method - Exercise #3
+Create three variables - companies, quarter, and sales_performance_prediction that store the following information, respectively:
+
+companies - 'Company A' and 'Company B'
+
+quarter - 1, 2, 3, 4
+
+sales_performance_prediction - 'increase', 'decrease', 'remain the same'.
+
+
+
+companies=['Company A','Company B']
+quarter=[1,2,3,4]
+sales_performance_prediction=['increase','decrease','remain the same']
