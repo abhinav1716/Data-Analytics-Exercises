@@ -1,0 +1,12 @@
+Introduction to pandas Series - Exercise #5
+Now, create a Series object directly. That is, not from an existing list, but by using the following structure: pd.Series([...])
+
+
+
+Let the elements of the Series object be the following numbers: 5, 8, 3, and 10. Name the object work_experience_yrs.
+
+
+
+import pandas as pd
+work_experience_yrs=pd.Series([5,8,3,10])
+print(work_experience_yrs)
