@@ -1,0 +1,14 @@
+Importing Text Files in Python ( open() ) - Exercise #2
+You are provided with a text file named 'source.txt'. Store the file's name in a variable called filename. Open the file, read its entire content into a variable, and then close it. Before and after closing the file, check if it is closed and display the status.
+
+After confirming that the file is closed, display its content using the stored variable.
+
+
+
+filename="source.txt"
+file=open(filename,mode="r")
+text=file.read()
+print(file.closed)
+file.close()
+print(file.closed)
+print(text)
