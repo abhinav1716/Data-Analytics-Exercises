@@ -1,0 +1,17 @@
+Importing Text Files in Python ( with open() ) - Exercise #2
+You are provided with a text file named 'source.txt'. It's content has been stored in a variable named text.
+
+Without removing the existing code in the *.py file, use the with open() syntax to perform the same operation, this time naming the file object out_file, which stands for 'output file'. 
+
+Use the print() function twice: first, to check the content of the text variable, and then to see what has been stored in out_file.
+
+
+
+filename='source.txt'
+file = open(filename, mode = 'r')
+text = file.read()
+with open(filename,mode="r") as out_file:
+    out_file.read()
+print(text)
+print(out_file)
+
