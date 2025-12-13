@@ -1,0 +1,9 @@
+Strings - Exercise #1
+Assign the value of 100 to the variable m.
+
+With the help of the variable m, write one line of code where the output after execution would be 100 days.
+
+
+
+m=100
+print(str(m), "days")
