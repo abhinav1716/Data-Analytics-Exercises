@@ -1,0 +1,16 @@
+Saving your Data with pandas - Exercise #1
+You are provided with a CSV file named 'Lending-company-100.csv'.
+
+
+
+To begin, as a refresher, read the contents of the file into a DataFrame named my_data. Keep the code that has already been provided.
+
+Use the print() function to display the first 5 rows of my_data.
+
+
+
+import pandas as pd
+
+filename = 'Lending-company-100.csv'
+my_data = pd.read_csv(filename)
+print(my_data.head())
