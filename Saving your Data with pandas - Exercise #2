@@ -1,0 +1,12 @@
+Saving your Data with pandas - Exercise #2
+You are provided with a CSV file named 'Lending-company-100.csv'. Its contents have been loaded into a DataFrame called my_data.
+
+Execute a line of code that stores the contents of my_data into a file named 'my-csv-file.csv'.
+
+
+import pandas as pd
+
+filename = 'Lending-company-100.csv'
+my_data = pd.read_csv(filename)
+
+my_data.to_csv('my-csv-file.csv')
