@@ -1,0 +1,13 @@
+Importing *.json Files - Exercise #3
+You are provided with a dictionary named prices_per_product, where the keys are product names and the values are their respective prices.
+
+
+
+Determine the type of the prices_per_product variable using the print() function.
+
+
+
+
+prices_per_product = '{"Product A": 22250, "Product B" : 16600, "Product C":15600}'
+print(type(prices_per_product))
+
