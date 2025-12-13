@@ -1,0 +1,6 @@
+Creating a Function with a Parameter - Exercise #2
+Define a function called division_by_2(x) that returns a float value equal to its argument divided by 2.
+
+def division_by_2(x):
+    return float(x/2)
+division_by_2(5)
