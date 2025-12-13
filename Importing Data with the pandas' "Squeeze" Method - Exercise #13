@@ -1,0 +1,15 @@
+Importing Data with the pandas' "Squeeze" Method - Exercise #13
+You are provided with a CSV file named 'Customer-Gender-100.csv'. It contains gender data for the first 100 customers of the lending company you worked with in previous coding exercises.
+
+1. Load the contents of the file into an object named df_single_col.
+
+2. Squeeze the data from df_single_col into a new variable named selected_data.
+
+3. Use the print() function to display the first 5 rows of selected_data.
+
+
+import pandas as pd 
+
+df_single_col = pd.read_csv("Customer-Gender-100.csv")
+selected_data=df_single_col.squeeze("columns")
+print(selected_data.head())
