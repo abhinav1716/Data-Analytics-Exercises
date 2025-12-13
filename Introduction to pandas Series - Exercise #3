@@ -1,0 +1,9 @@
+Introduction to pandas Series - Exercise #3
+Create and print out a pandas Series object containing the elements from the employee_names list. Call it employee_names_Series.
+
+
+
+import pandas as pd
+employee_names = ['Amy White', 'Jack Stewart', 'Richard Lauderdale', 'Sara Johnson']
+employee_names_Series=pd.Series(employee_names)
+print(employee_names_Series)
