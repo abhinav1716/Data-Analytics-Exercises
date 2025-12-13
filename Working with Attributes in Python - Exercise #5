@@ -1,0 +1,10 @@
+Working with Attributes in Python - Exercise #5
+Assign the name 'Work Experience (Yrs.)' to the work_experience_years Series.
+
+
+
+import pandas as pd
+
+work_experience_years = pd.Series([5,8,3,10])
+work_experience_years.name="Work Experience (Yrs.)"
+print(work_experience_years.name)
