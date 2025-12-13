@@ -1,0 +1,11 @@
+Using an Index in pandas - Exercise #3
+Create a Series from workers_age, giving it the same name.
+
+Confirm that the task was done correctly by printing out the contents of the newly created object.
+
+
+import pandas as pd
+
+workers_age = {'Amy White':50, 'Jack Stewart':53, 'Richard Lauderdale':35, 'Sara Johnson':43}
+workers_age=pd.Series(workers_age)
+print(workers_age)
