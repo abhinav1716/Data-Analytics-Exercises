@@ -1,0 +1,12 @@
+Importing *.json Files - Exercise #8
+You are provided with a JSON file named 'Lending-company-100.json'.
+
+Read its contents into a DataFrame using the pandas library and assign it to a variable named new_csv_data.
+
+Use the print() function to display the entire contents of the DataFrame.
+
+
+import pandas as pd
+new_csv_data=pd.read_json('Lending-company-100.json')
+print(new_csv_data)
+
