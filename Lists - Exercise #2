@@ -1,0 +1,7 @@
+
+Lists - Exercise #2
+Print the 0th element from the Numbers list
+
+
+Numbers = [10, 25, 40, 50]
+print(Numbers[0])
