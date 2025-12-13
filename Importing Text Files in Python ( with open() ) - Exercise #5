@@ -1,0 +1,21 @@
+Importing Text Files in Python ( with open() ) - Exercise #5
+You are provided with a text file named 'source.txt', containing the following text:
+
+This is the simplest plain text file!
+
+The existing code is supposed to be used to open the file in 'write' mode and replace its content with the string "It is not so simple anymore!".
+
+Now, use another with open() syntax to read the contents of the file (using the new file object) into a variable named new_text.
+
+Print the content of the new_text variable to confirm that it has been updated.
+
+
+
+
+filename='source.txt'
+
+with open(filename, mode = 'w') as out_file:
+    out_file.write("It is not so simple anymore!")
+with open(filename,'r') as out_file:
+    new_text=out_file.read()
+print(new_text)
