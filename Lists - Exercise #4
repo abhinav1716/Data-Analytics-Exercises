@@ -1,0 +1,9 @@
+
+Lists - Exercise #4
+Replace the number 10 with the number 15 in the Numbers list.
+
+
+
+Numbers = [10, 25, 40, 50]
+Numbers[0]= 15
+print(Numbers)
