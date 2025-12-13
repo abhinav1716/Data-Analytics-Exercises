@@ -1,0 +1,10 @@
+Partial Cleaning While Importing - Exercise #3
+Load only the first and last columns of the "Lending-Company-Total-Price-100.csv" file into a two-dimensional array named lending_co_TP, using a comma as the delimiter, a string data type, and skipping the first row.
+
+Display the contents of lending_co_TP to the console.
+
+
+import numpy as np
+lending_co_TP=np.genfromtxt("Lending-Company-Total-Price-100.csv",delimiter=",",dtype=str,skip_header=1,usecols=(0,-1))
+print(lending_co_TP)
+
