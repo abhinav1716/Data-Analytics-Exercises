@@ -1,0 +1,15 @@
+Importing Data with the pandas' "Squeeze" Method - Exercise #7
+You are provided with a CSV file named 'Lending-company-100.csv'.
+
+1. Load the data into a variable named data.
+
+2. Squeeze it into a Series or DataFrame named df_squeeze.
+
+3. Use the print() function to display the first 5 entries of df_squeeze.
+
+
+import pandas as pd
+data=pd.read_csv("Lending-company-100.csv")
+df_squeeze=data.squeeze("columns")
+print(df_squeeze.head())
+
