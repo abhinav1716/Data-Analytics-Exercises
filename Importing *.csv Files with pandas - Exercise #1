@@ -1,0 +1,18 @@
+Importing *.csv Files with pandas - Exercise #1
+You are provided with a text file named 'Lending-company-100. csv'.
+
+Use a variable named filename to store the file's name.
+
+Open the file using the open() function and store its entire content into a variable called file.
+
+Read the content of the text variable into a separate variable called text.
+
+To conclude, print the type of the type of the text variable to confirm that it has been updated.
+
+
+
+filename="Lending-company-100.csv"
+file=open(filename,mode='r')
+text=file.read()
+
+print(type(text))
