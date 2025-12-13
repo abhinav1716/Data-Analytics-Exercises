@@ -1,0 +1,9 @@
+Using a Function in Another Function - Exercise #1
+Define a function called plus_five() that adds 5 to its argument. Then, define another function named m_by_3() that multiplies the argument (the result obtained from plus_five()) by 3. Verify your code was correct by calling the second function with an argument of 5. Was your output equal to 30?
+
+
+def plus_five(x):
+    return x+5 
+def m_by_3(x):
+    return plus_five(x)*3 
+m_by_3(5)
