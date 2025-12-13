@@ -1,0 +1,13 @@
+The ELSE Statement - Exercise #1
+Let x represent the number of orders received during a certain day. Create a program that prints "A busy day" if x is greater than 100, and "A calm day" otherwise.
+
+
+
+# Number of orders received
+x = 120  # You can change this value to test
+
+# Conditional statement
+if x > 100:
+    print("A busy day")
+else:
+    print("A calm day")
