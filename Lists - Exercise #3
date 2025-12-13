@@ -1,0 +1,7 @@
+
+Lists - Exercise #3
+Print the third-to-last element from the Numbers list using a minus sign in the brackets.
+
+
+Numbers = [10, 25, 40, 50]
+print(Numbers[-3])
