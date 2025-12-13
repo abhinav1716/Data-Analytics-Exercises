@@ -1,0 +1,7 @@
+Dictionaries - Exercise #5
+Create a new dictionary called Price_list that contains the first five meals of the Menu dictionary as keys and assign the following five values as prices (assumed in dollars): 10, 5, 8, 12, 5. Start by Price_list = {}.
+
+
+Menu = {'meal_1':'Spaghetti', 'meal_2':'Fries', 'meal_3':'Cheeseburger', 'meal_4':'Lasagna', 'meal_5':'Soup'}
+Price_list={'Spaghetti':10,'Fries':5,'Cheeseburger':8 ,'Lasagna':12 ,'Soup':5}
+
