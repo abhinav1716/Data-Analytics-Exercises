@@ -1,0 +1,7 @@
+
+Dictionaries - Exercise #2
+Add a fifth meal: "Soup".
+
+
+Menu = {'meal_1':'Spaghetti', 'meal_2':'Fries', 'meal_3':'Hamburger', 'meal_4':'Lasagna'}
+Menu['meal_5']="Soup"
