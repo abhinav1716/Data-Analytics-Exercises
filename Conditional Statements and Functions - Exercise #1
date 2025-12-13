@@ -1,0 +1,11 @@
+
+Conditional Statements and Functions - Exercise #1
+Define a function, called compare_the_two(), with two arguments. If the first one is greater than the second one, let it print "Greater". If the second one is greater, it should print "Less". Let it print "Equal" if the two values are the same number
+
+def compare_the_two(a,b):
+    if a>b:
+        print("Greater")
+    elif b>a:
+        print("Less")
+    else:
+        print("Equal")
