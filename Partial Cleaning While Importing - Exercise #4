@@ -1,0 +1,11 @@
+Partial Cleaning While Importing - Exercise #4
+Similar to the previous exercise, load only the first and last columns of the "Lending-Company-Total-Price-100.csv" file into a two-dimensional array named lending_co_TP, using a comma as the delimiter and skipping the first row. This time, however, use 32-bit NumPy float data types.
+
+Display the contents of lending_co_TP to the console.
+
+
+
+import numpy as np
+lending_co_TP=np.genfromtxt("Lending-Company-Total-Price-100.csv",delimiter=",",skip_header=1,usecols=(0,-1),dtype=float)
+print(lending_co_TP)
+
