@@ -1,0 +1,75 @@
+Notable Built-in Functions in Python - Exercise #1
+Obtain the maximum number among the values 25, 65, 890, and 15.
+
+
+max(25,65,890,15)
+
+
+
+Notable Built-In Functions in Python - Exercise #2
+Obtain the minimum number among the values 25, 65, 890, and 15.
+
+
+min(25,65,890,15)
+
+
+
+
+Notable Built-In Functions in Python - Exercise #3
+Find the absolute value of -100.
+
+
+abs(-100)
+
+
+
+Notable Built-In Functions in Python - Exercise #4
+Round the value of 55.5
+
+round(55.5)
+
+
+
+Notable Built-In Functions in Python - Exercise #5
+Round 35.56789 to the third digit.
+
+round(35.56789,3)
+
+
+
+Notable Built-In Functions in Python - Exercise #6
+Find the sum of all elements in the provided list, called "Numbers".
+
+
+Numbers = [1, 5, 64, 24.5]
+sum(Numbers)
+
+Notable Built-In Functions in Python - Exercise #7
+Use a built-in function to raise 10 to the power of 3.
+
+pow(10,3)
+
+
+
+Notable Built-In Functions in Python - Exercise #8
+In one line of code, find how many characters there are in the word "Elephant"?
+
+len("Elephant")
+
+
+
+Notable Built-In Functions in Python - Exercise #9
+Create a function, called distance_from_zero(), that returns the absolute value of a provided single argument and prints a statement "Not possible" if the argument provided is not a number. To solve the task, use the type() function in the body of distance_from_zero().
+
+Call the function with the values of -10 and "cat" to verify it works correctly.
+
+
+
+def distance_from_zero(a):
+    typ=type(a)
+    if typ==str:
+        print("Not possible")
+    else:
+        return abs(a)
+distance_from_zero(-10)
+
