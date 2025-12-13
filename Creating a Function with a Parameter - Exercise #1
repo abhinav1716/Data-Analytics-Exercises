@@ -1,0 +1,8 @@
+Creating a Function with a Parameter - Exercise #1
+Define a function called multiplication_by_2(x) that returns a value equal to its argument multiplied by 2.
+
+
+
+def multiplication_by_2(x):
+    return x*2 
+multiplication_by_2(3)
