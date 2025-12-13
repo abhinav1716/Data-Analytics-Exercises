@@ -1,0 +1,16 @@
+Saving Your Data with NumPy - np.savetxt() - Exercise #1
+Store the data from lending_co_saving as a *.csv file named "Saving-Exercise-4".
+
+
+
+Note: In this exercise, the focus is not on the contents of the files. So, you don't need to check the data stored in any of them.
+
+
+import numpy as np
+np.set_printoptions(suppress = True, linewidth = 150)
+
+lending_co_saving = np.genfromtxt("Lending-Company-Saving-100.csv", 
+                                    delimiter = ',', 
+                                    dtype = str)
+
+np.savetxt("Saving-Exercise-4.csv",lending_co_saving,fmt="%s",delimiter=',')
