@@ -1,0 +1,9 @@
+
+The IF Statement - Exercise #1
+Create a two-line code that prints "The condition has been satisfied" if 5 is greater than 2.
+
+
+
+
+if 5>2:
+    print("The condition has been satisfied")
