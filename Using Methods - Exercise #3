@@ -1,0 +1,8 @@
+
+Using Methods - Exercise #3
+Print a statement, saying "The fourth element of the Numbers list is" followed by the value of the fourth element of the Numbers list. Ensure you use a trailing comma to concatenate the statement with the value.
+
+
+
+Numbers = [15, 40, 50, 100, 115, 140]
+print("The fourth element of the Numbers list is",Numbers[3])
