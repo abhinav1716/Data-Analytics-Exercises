@@ -1,0 +1,7 @@
+Label-based vs Position-based Indexing - Exercise #2
+Retrieve the index values of employees_work_exp to confirm they are labels.
+
+import pandas as pd
+
+employees_work_exp = pd.Series({'Martin':8, 'George':5})
+print(employees_work_exp.index)
