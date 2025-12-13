@@ -1,0 +1,7 @@
+Label-based vs Position-based Indexing - Exercise #1
+Create a pandas Series object from a dictionary with keys "Martin" and "George" and values 8 and 5, respectively. Call this Series employees_work_exp, as from "workers work experience".
+
+
+import pandas as pd 
+employees_work_exp=pd.Series({"Martin":8,"George":5})
+print(employees_work_exp)
