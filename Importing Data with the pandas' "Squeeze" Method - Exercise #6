@@ -1,0 +1,14 @@
+Importing Data with the pandas' "Squeeze" Method - Exercise #6
+You are provided with a CSV file named Customer-Gender-100.csv. It contains gender data for the first 100 customers of the lending company you worked with in previous coding exercises. This data has been loaded into an object named df_single_col.
+
+
+
+Use the print() function to display the type of the df_single_col object.
+
+
+import pandas as pd
+
+df_single_col = pd.read_csv('Customer-Gender-100.csv')
+print(type(df_single_col))
+
+
