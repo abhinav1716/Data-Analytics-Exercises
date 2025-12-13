@@ -1,0 +1,14 @@
+Importing *.json Files - Exercise #5
+You are provided with a string representation of a dictionary named prices_per_product.
+
+
+Convert this string into an actual dictionary using the json module.
+
+
+
+import json
+
+prices_per_product = '{"Product A": 22250, "Product B" : 16600, "Product C":15600}'
+parsed_str=json.loads(prices_per_product)
+print(parsed_str)
+
