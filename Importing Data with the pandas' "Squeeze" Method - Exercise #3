@@ -1,0 +1,10 @@
+Importing Data with the pandas' "Squeeze" Method - Exercise #3
+You are provided with a CSV file named 'Lending-company-100.csv'.
+
+Read only the 'Product' column from the file into an object named df_usecols. Then, use the print() function to display the first 5 rows of the extracted column.
+
+
+import pandas as pd
+df_usecols=pd.read_csv("Lending-company-100.csv",usecols=["Product"])
+print(df_usecols.head())
+
