@@ -1,0 +1,12 @@
+Manipulating Python Strings - Exercise #4
+Use argument specifiers, the variables provided, and the plus sign + within the parentheses of a print() function, to create the following string:
+
+The "Fast Cars" shop are expecting to sell 1000 units of the new Audi model next year. The "Elegant Cars" shop are expecting to sell 1200 units of the new Ford model next year.
+
+
+
+car_shop = ['Fast Cars', 'Elegant Cars']
+car_brand = ['Audi', 'Ford']
+number_of_cars_for_sale = [1000, 1200]
+price_of_model = 37500.50
+print('The \"%s\" shop are expecting to sell %d units of the new %s model next year.'%(car_shop[0],number_of_cars_for_sale[0],car_brand[0])+ ' The \"%s\" shop are expecting to sell %d units of the new %s model next year.'%(car_shop[1],number_of_cars_for_sale[1],car_brand[1]))
