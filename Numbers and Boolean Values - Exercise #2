@@ -1,0 +1,7 @@
+
+Numbers and Boolean Values - Exercise #2
+Create a variable b equal to 99.
+
+Check its type
+b=99
+type(b)
