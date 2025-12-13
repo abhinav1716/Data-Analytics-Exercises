@@ -1,0 +1,14 @@
+Manipulating Python Strings - Exercise #2
+Use the print() function, argument specifiers, the variables provided, and the combination of the escape character and the letter n, i.e. \n, to display the following string, while preserving the number of lines:
+
+Current list of local car shops:
+"Fast Cars"
+"Elegant Cars"
+
+
+
+car_shop = ['Fast Cars', 'Elegant Cars']
+car_brand = ['Audi', 'Ford']
+number_of_cars_for_sale = [1000, 1200]
+price_of_model = 37500.50
+print('Current list of local car shops: \n"%s" \n"%s\"' %(car_shop[0],car_shop[1]))
