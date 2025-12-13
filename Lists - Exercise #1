@@ -1,0 +1,9 @@
+
+Lists - Exercise #1
+Create a list, called Numbers. Let it contain the numbers 10, 25, 40, and 50.
+
+Print the element at index 2 from the list
+
+
+Numbers=[10,25,40,50]
+print(Numbers[2])
