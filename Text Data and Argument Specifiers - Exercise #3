@@ -1,0 +1,11 @@
+Text Data and Argument Specifiers - Exercise #3
+Change the index value of the given code cell to obtain the following string as an output:
+
+"The "Elegant Cars" shop are expecting to sell 1200 units of the new Ford model next year."
+
+
+car_shop = ['Fast Cars', 'Elegant Cars']
+car_brand = ['Audi', 'Ford']
+number_of_cars_for_sale = [1000, 1200]
+price_of_model = 37500.50
+print("The \"%s\" shop are expecting to sell %d units of the new %s model next year." % (car_shop[1], number_of_cars_for_sale[1], car_brand[1]))
