@@ -1,0 +1,7 @@
+
+Numbers and Boolean Values - Exercise #1
+Create a variable a equal to "True".
+
+Check its type
+a=True
+type(a
