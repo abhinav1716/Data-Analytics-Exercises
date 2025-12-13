@@ -1,0 +1,9 @@
+
+Dictionaries - Exercise #4
+Attach the Desserts list as a sixth meal (remember, you were supposed to add Soup as a fifth meal earlier!).
+
+
+Menu = {'meal_1':'Spaghetti', 'meal_2':'Fries', 'meal_3':'Cheeseburger', 'meal_4':'Lasagna'}
+Dessert = ['Pancakes', 'Ice-cream', 'Tiramisu']
+Menu['meal_5']="Soup"
+Menu['meal_6']=Dessert
