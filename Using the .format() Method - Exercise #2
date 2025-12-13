@@ -1,0 +1,12 @@
+Using the .format() Method - Exercise #2
+Use the .format() method to substitute the pairs of braces in the string with the following three values, thus obtaining information about the sales of Company A for the third quarter of next year:
+
+'Company A'
+
+3
+
+'increase'
+
+
+
+print("{} expects their next year's sales of Q{} to {}.".format("Company A",3,"increase"))
