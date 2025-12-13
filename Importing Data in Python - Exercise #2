@@ -1,0 +1,14 @@
+Importing Data in Python - Exercise #2
+You are provided with a CSV file named 'Lending-company-single-column-data.csv'.
+
+
+
+Read this file into a DataFrame named my_csv_data.
+
+Use the print() function to display a five-row preview of the data.
+
+
+import pandas as pd
+my_csv_data=pd.read_csv('Lending-company-single-column-data.csv')
+print(my_csv_data.head(5))
+
