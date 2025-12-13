@@ -1,0 +1,13 @@
+Importing Data with NumPy - Exercise #1
+By default, np.loadtxt() assumes all values are numeric, so it crashes when it encounters text data. We can bypass this by specifying the data type as a NumPy string type when importing.
+
+Apply this modification to the provided code.
+
+
+import numpy as np
+
+np.set_printoptions(suppress = True, linewidth = 150)
+
+lending_co_TP = np.loadtxt("Lending-Company-Total-Price-100.csv", delimiter = ',',dtype=np.str)
+
+print(lending_co_TP)
