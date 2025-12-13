@@ -1,0 +1,15 @@
+Importing Text Files in Python ( with open() ) - Exercise #3
+You are provided with a text file named 'source.txt'.
+
+Without removing the existing code in the exercise.py file, use use the with open() syntax to open the file in 'write' mode and replace its content with the the string "It is not so simple anymore!". This time, name the file object out_file, which stands for 'output file'. 
+
+Use the print() function to display the content of the out_file.
+
+
+
+filename='source.txt'
+with open(filename,mode="w") as out_file:
+    out_file.write("It is not so simple anymore!")
+print(out_file)
+
+
