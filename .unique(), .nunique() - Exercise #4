@@ -1,0 +1,11 @@
+.unique(), .nunique() - Exercise #4
+Please extract the total number of values from the region_data Series by using a Python built-in function.
+
+
+
+
+import pandas as pd
+
+data = pd.read_csv('Region.csv').squeeze("columns")
+region_data = data.copy()
+print(len(region_data))
