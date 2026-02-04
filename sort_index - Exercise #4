@@ -1,0 +1,10 @@
+.sort_index - Exercise #4
+Sort the index of the region_data Series in opposite direction. You can do that by setting the ascending parameter equal to False.
+
+
+import pandas as pd
+
+data = pd.read_csv('Region.csv').squeeze("columns")
+region_data = data.copy()
+region_data = region_data.sort_values(ascending=False)
+print(region_data.sort_index(ascending=False))
