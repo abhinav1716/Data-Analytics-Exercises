@@ -1,0 +1,10 @@
+Attribute and Method Chaining - Exercise #2
+Use method chaining to obtain the first five rows from the values of region_data sorted in ascending order.
+
+
+
+import pandas as pd
+
+data = pd.read_csv('Region.csv').squeeze("columns")
+region_data = data.copy()
+print(region_data.sort_values().head())
