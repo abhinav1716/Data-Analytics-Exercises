@@ -1,0 +1,11 @@
+sort_values() - Exercise #2
+Sort the values from the region_data Series without specifying any arguments.
+
+
+
+
+import pandas as pd
+
+data = pd.read_csv('Region.csv').squeeze("columns")
+region_data = data.copy()
+print(region_data.sort_values())
