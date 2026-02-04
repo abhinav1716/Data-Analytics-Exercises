@@ -1,0 +1,10 @@
+sort_values() - Exercise #4
+Sort the values in region_data in descending order.
+
+
+
+import pandas as pd
+
+data = pd.read_csv('Region.csv').squeeze("columns")
+region_data = data.copy()
+print(region_data.sort_values(ascending=False))
