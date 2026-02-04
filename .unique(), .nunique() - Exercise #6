@@ -1,0 +1,10 @@
+.unique(), .nunique() - Exercise #6
+Please obtain an array containing all unique values from the region_data Series.
+
+
+
+import pandas as pd
+
+data = pd.read_csv('Region.csv').squeeze("columns")
+region_data = data.copy()
+print(region_data.unique())
