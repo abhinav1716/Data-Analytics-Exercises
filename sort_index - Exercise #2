@@ -1,0 +1,13 @@
+sort_index - Exercise #2
+Overwrite the content of the region_data Series as you sort the values in descending order.
+
+Observe the index of the Series. Is it ordered correctly?
+
+
+
+import pandas as pd
+
+data = pd.read_csv('Region.csv').squeeze("columns")
+region_data = data.copy()
+region_data=region_data.sort_values(ascending=False)
+print(region_data)
