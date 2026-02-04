@@ -1,0 +1,11 @@
+sort_index - Exercise #3
+Sort the index of the new version of the region_data Series object.
+
+
+
+import pandas as pd
+
+data = pd.read_csv('Region.csv').squeeze("columns")
+region_data = data.copy()
+region_data = region_data.sort_values(ascending=False)
+print(region_data.sort_index())
