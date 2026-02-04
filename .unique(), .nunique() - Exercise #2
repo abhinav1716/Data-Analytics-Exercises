@@ -1,0 +1,10 @@
+.unique(), .nunique() - Exercise #2
+Verify that region_data is a Series object.
+
+
+
+import pandas as pd
+
+data = pd.read_csv('Region.csv').squeeze("columns")
+region_data = data.copy()
+print(type(region_data))
