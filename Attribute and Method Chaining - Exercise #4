@@ -1,0 +1,9 @@
+Attribute and Method Chaining - Exercise #4
+Create a Series object named emp_birth_date. This object should contain the birth dates of four specific employees, each identified by their employee number
+
+
+
+import pandas as pd 
+emp_birth_date=pd.Series({'No_0001':'1963-08-02','No_0002':'1964-06-13','No_0003':'1989-12-04','No_0004':'1996-04-08'})
+print(emp_birth_date)
+
