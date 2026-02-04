@@ -1,0 +1,12 @@
+unique(), .nunique() - Exercise #3
+Use the .describe() method to obtain descriptive statistics on the region_data Series.
+
+Think of how many unique values there are in the data set.
+
+
+
+import pandas as pd
+
+data = pd.read_csv('Region.csv').squeeze("columns")
+region_data = data.copy()
+print(region_data.describe())
