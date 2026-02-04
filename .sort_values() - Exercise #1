@@ -1,0 +1,9 @@
+.sort_values() - Exercise #1
+Load the "Region.csv" file and set the .squeeze() method to "columns" or 1. Store the information in a variable called region_data. Preview the data with the pandas .head() method.
+
+
+
+
+import pandas as pd 
+region_data=pd.read_csv('Region.csv',squeeze="columns")
+print(region_data.head())
