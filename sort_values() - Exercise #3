@@ -1,0 +1,9 @@
+sort_values() - Exercise #3
+Sort the values from the region_data Series, setting the ascending parameter equal to True.
+
+
+import pandas as pd
+
+data = pd.read_csv('Region.csv').squeeze("columns")
+region_data = data.copy()
+print(region_data.sort_values(ascending=True))
