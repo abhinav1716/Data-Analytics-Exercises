@@ -1,0 +1,9 @@
+unique(), .nunique() - Exercise #5
+Please extract the number of unique values from the region_data Series.
+
+
+import pandas as pd
+
+data = pd.read_csv('Region.csv').squeeze("columns")
+region_data = data.copy()
+print(region_data.nunique())
