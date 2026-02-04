@@ -1,0 +1,9 @@
+Attribute and Method Chaining - Exercise #6
+Obtain the row labels of the index of emp_birth_date, i.e. its values, stored in an array.
+
+
+
+import pandas as pd
+
+emp_birth_date = pd.Series({'No_0001':'1963-08-02', 'No_0002':'1964-06-13', 'No_0003':'1989-12-04', 'No_0004':'1996-04-08'})
+print(emp_birth_date.index.to_numpy())
