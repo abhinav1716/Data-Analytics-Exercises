@@ -1,0 +1,21 @@
+Data Selection - Indexing with .iloc[] - Exercise #4
+The pandas library has been imported with its conventional alias, and pandas display options relevant for full result visibility have been set.
+The data from 'Sales-products-100.csv' has been loaded into an object called data, and a copy of it has been stored in a variable named sales_products_data.
+
+
+
+Use a pandas integer-location based accessor to retrieve the value located in the second row of the 'ProductType' column in the sales_products_data DataFrame.
+
+If you've worked correctly, you should obtain Cooking Gear.
+
+
+
+
+import pandas as pd
+pd.set_option('display.max_columns', None)
+pd.set_option('display.width', 2000)
+
+data = pd.read_csv('Sales-products-100.csv')
+sales_products_data = data.copy()
+
+print(sales_products_data.iloc[1,5])
