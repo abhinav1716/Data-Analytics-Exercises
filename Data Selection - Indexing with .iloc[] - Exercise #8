@@ -1,0 +1,20 @@
+Data Selection - Indexing with .iloc[] - Exercise #8
+The pandas library has been imported with its conventional alias, and pandas display options relevant for full result visibility have been set.
+The data from 'Sales-products-100.csv' has been loaded into an object called data, and a copy of it has been stored in a variable named sales_products_data.
+
+
+
+Prove that .iloc[] can be used with a Series, not just a DataFrame. To do this, retrieve the first element from the 'Product' column in sales_products_data.
+
+If you've worked correctly, you should obtain TrailChef Deluxe Cook Set.
+
+
+
+import pandas as pd
+pd.set_option('display.max_columns', None)
+pd.set_option('display.width', 2000)
+
+data = pd.read_csv('Sales-products-100.csv')
+sales_products_data = data.copy()
+
+print(sales_products_data['Product'].iloc[0])
