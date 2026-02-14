@@ -1,0 +1,18 @@
+Data Selection - Indexing with .loc[] - Exercise #4
+The pandas library has been imported with its conventional alias, and pandas display options relevant for full result visibility have been set.
+The data from 'Sales-products-100.csv' has been loaded into an object called data, with 'SaleID' set as the index column. A copy of the DataFrame has been stored in a variable named sales_products_data.
+
+
+
+Considering the data organization in sales_products_data, use a pandas label-based accessor to retrieve all available information for the 15th, 35th, and 97th sales recorded in the DataFrame.
+
+
+
+import pandas as pd
+pd.set_option('display.max_columns', None)
+pd.set_option('display.width', 2000)
+
+data = pd.read_csv('Sales-products-100.csv', index_col = 'SaleID')
+sales_products_data = data.copy()
+
+print(sales_products_data.loc[["SaleID_15","SaleID_35","SaleID_97"]])
