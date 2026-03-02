@@ -1,0 +1,25 @@
+A Revision to pandas DataFrames - Exercise #2
+Apart from the imported libraries and the relevant pandas options that have been set, you have been provided with a 2-D array.
+Create a DataFrame named company_statistics with the following column names:
+
+'No. of Employees'
+
+'Avg. Annual Revenue ($)'
+
+'Share price ($)'
+
+Let the first list in the 2-D array correspond to 'Company A', and the second to 'Company B'.
+Finally, display the contents of company_statistics.
+
+
+
+
+import numpy as np
+import pandas as pd
+pd.set_option('display.max_columns', None)
+pd.set_option('display.width', 2000)
+
+array_a = np.array([[1000, 50, 78.45], [700, 112, 35.5]])
+company_statistics=pd.DataFrame(array_a,columns=["No. of Employees","Avg. Annual Revenue ($)","Share price ($)"],index=["Company A","Company B"])
+print(company_statistics)
+
