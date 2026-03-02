@@ -1,0 +1,18 @@
+Data Selection in pandas DataFrames - Exercise #2
+The pandas library has been imported with its conventional alias, and pandas display options relevant for full result visibility have been set.
+The data from 'Sales-products-100.csv' has been loaded into an object called data, and a copy of it has been stored in a variable named sales_products_data.
+
+
+
+For the sake of the exercise, and similar to the data shown in this picture, retrieve the values stored in the "Product" column of sales_products_data using attribute access.
+
+
+
+import pandas as pd
+pd.set_option('display.max_columns', None)
+pd.set_option('display.width', 2000)
+
+data = pd.read_csv('Sales-products-100.csv')
+sales_products_data = data.copy()
+
+print(sales_products_data.Product)
