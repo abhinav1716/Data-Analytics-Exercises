@@ -1,0 +1,18 @@
+Slicing in NumPy - Exercise #2
+Consider the provided 3D array and supply arguments to the print() functions to complete the following tasks:
+
+1. Slice the first column of both matrices in the 3D array.
+
+2. Slice every other column of both matrices in the 3D array.
+
+
+
+
+import numpy as np
+
+array_3D = np.array([[[1,2,3,4,5], [11,21,31,41,51]], [[11,12,13,14,15], [51,52,53,54,5]]])
+
+#1.
+print(array_3D[:,:,0])
+#2.
+print(array_3D[:,:,::2])
