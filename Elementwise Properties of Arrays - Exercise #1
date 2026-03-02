@@ -1,0 +1,20 @@
+Elementwise Properties of Arrays - Exercise #1
+Consider the provided NumPy arrays to solve the following two exercises:
+
+Add 2 to every element of array_2D without overwriting its values. Display the output.
+
+Multiply the values of array_3D by 100. Display the output.
+
+
+
+import numpy as np
+
+array_2D = np.array([[20,30,40,50,60], [43,54,65,76,87], [11,22,33,44,55]])
+array_3D = np.array([[[1,2,3,4,5], [11,21,31,41,51]], [[11,12,13,14,15], [51,52,53,54,5]]])
+
+#1. array_2D
+
+print(array_2D+2)
+#2. array_3D
+
+print(array_3D*100)
