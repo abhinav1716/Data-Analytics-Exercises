@@ -1,0 +1,23 @@
+Slicing in NumPy - Exercise #5
+Consider the provided arrays and complete the following tasks:
+
+1. Use conditional slicing on array_1D as the argument to the given print() function to extract the odd values greater than 10.
+
+2. Use conditional slicing on array_2D as the argument to the given print() function to extract the odd values greater than 10.
+
+3. Use conditional slicing on array_3D as the argument to the given print() function to extract the odd values greater than 10.
+
+
+
+import numpy as np
+
+array_1D = np.array([10,11,12,13,14])
+array_2D = np.array([[20,30,40,50,60], [43,54,65,76,87], [11,22,33,44,55]])
+array_3D = np.array([[[1,2,3,4,5], [11,21,31,41,51]], [[11,12,13,14,15], [51,52,53,54,5]]])
+
+#1.
+print(array_1D[((array_1D %2 ==1)&(array_1D>10)) ])
+#2.
+print(array_2D[((array_2D %2 ==1)&(array_2D>10))])
+#3.
+print(array_3D[((array_3D %2 ==1)&(array_3D>10))])
