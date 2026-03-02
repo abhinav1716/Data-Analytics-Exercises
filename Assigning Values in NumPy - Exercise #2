@@ -1,0 +1,23 @@
+Assigning Values in NumPy - Exercise #2
+Consider the provided NumPy arrays to solve the following two exercises:
+
+Set the last column of array_2D to 100. Display the array to check your work.
+
+Set all the values of array_3D to 1000. Display the array to check your work.
+
+
+
+import numpy as np
+
+array_2D = np.array([[20,30,40,50,60], [43,54,65,76,87], [11,22,33,44,55]])
+array_3D = np.array([[[1,2,3,4,5], [11,21,31,41,51]], [[11,12,13,14,15], [51,52,53,54,5]]])
+
+
+#1. array_1D
+array_2D[:,4]=100
+print(array_2D)
+
+#2. array_2D
+
+array_3D[:]=1000
+print(array_3D)
