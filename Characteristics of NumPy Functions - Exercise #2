@@ -1,0 +1,25 @@
+Characteristics of NumPy Functions - Exercise #2
+1. Before execution, add or modify the given code so that
+array_2D and array_3D are composed of 32-bit float values.
+
+2. Use the axis argument of the np.mean() function to compute the mean for every column of the 2-dimensional array array_2D.
+
+3. Use the axis argument of the np.mean() function to compute the mean for each two-dimensional sub-array in the three-dimensional array array_3D, along its rows
+(i.e., compute the column-wise mean within each sub-array).
+
+Display the results for 2. and 3.
+
+
+
+
+import numpy as np
+
+#1.
+array_2D = np.array([[20,30,40,50,60], [43,54,65,76,87], [11,22,33,44,55]],dtype=np.float32)
+array_3D = np.array([[[1,2,3,4,5], [11,21,31,41,51]], [[11,12,13,14,15], [51,52,53,54,5]]],dtype=np.float32)
+
+
+#2.
+print(np.mean(array_2D,axis=0))
+#3.
+print(np.mean(array_3D,axis=1))
