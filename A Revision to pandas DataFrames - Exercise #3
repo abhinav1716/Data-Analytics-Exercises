@@ -1,0 +1,22 @@
+A Revision to pandas DataFrames - Exercise #3
+The pandas library has been imported with its conventional alias, and pandas display options relevant for full result visibility have been set.
+
+
+
+Load the data from 'Sales-products-100.csv' into an object called data.
+
+To develop the habit of following best practices, create a copy of data and store it in a new variable named sales_products_data.
+
+Display the top five rows of sales_products_data.
+
+
+
+
+import pandas as pd
+pd.set_option('display.max_columns', None)
+pd.set_option('display.width', 2000)
+data=pd.read_csv("Sales-products-100.csv")
+sales_products_data=data.copy()
+print(sales_products_data.head())
+
+
