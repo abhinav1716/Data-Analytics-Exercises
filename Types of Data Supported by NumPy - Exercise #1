@@ -1,0 +1,17 @@
+Types of Data Supported by NumPy - Exercise #1
+Before execution, add or modify the given code so that:
+
+array_1D is composed of strings, and
+
+array_2D is composed of 32-bit floats.
+
+Use the same data values as in the original arrays.
+
+
+
+import numpy as np
+
+array_1D = np.array([10,11,12,13,14],dtype=str)
+array_2D = np.array([[20,30,40,50,60], [43,54,65,76,87], [11,22,33,44,55]],dtype=np.float32)
+
+#1. 
