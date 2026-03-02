@@ -1,0 +1,39 @@
+Common Attributes for Working with DataFrames - Exercise #5
+The pandas library has been imported with its conventional alias, and pandas display options relevant for full result visibility have been set.
+In addition, the data from 'Sales-products-100.csv' has been loaded into an object called data, and a copy of it has been stored in a variable named sales_products_data.
+
+
+
+1. Assign the following string values as elements of a list called new_column_names:
+
+- 'SaleID'
+- 'Country'
+- 'OrderMethod'
+- 'Retailer'
+- 'Line'
+- 'Type'
+- 'Product'
+- 'YearOfSales'
+- 'Quarter'
+- 'Revenue'
+- 'Quantity'
+- 'Margin'
+
+2. Assign these values as the column names of the sales_products_data DataFrame, and rename it to df.
+
+
+
+
+
+import pandas as pd
+pd.set_option('display.max_columns', None)
+pd.set_option('display.width', 2000)
+ 
+data = pd.read_csv('Sales-products-100.csv')
+sales_products_data = data.copy()
+ 
+new_column_names = ['SaleID', 'Country', 'OrderMethod', 'Retailer', 'Line', 'Type', 'Product', 'YearOfSales', 'Quarter', 'Revenue','Quantity', 'Margin']
+ 
+df = pd.DataFrame(sales_products_data, columns = new_column_names)
+ 
+print(df)
