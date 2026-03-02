@@ -1,0 +1,47 @@
+Indexing in NumPy - Exercise #1
+Complete the following tasks in the suggested order:
+
+Create a one-dimensional NumPy array named array_1D, composed of a list containing the following values: 10, 11, 12, 13, and 14.
+
+Create a two-dimensional NumPy array named array_2D, composed of three one-dimensional arrays containing the following values:
+– 20, 30, 40, 50, and 60
+– 43, 54, 65, 76, and 87
+– 11, 22, 33, 44, and 55
+
+Create a three-dimensional NumPy array named array_3D, composed of two two-dimensional NumPy arrays. Let the first one contain the following one-dimensional arrays:
+– 1, 2, 3, 4, and 5
+– 11, 21, 31, 41, and 51
+
+And let the second one contain:
+– 11, 12, 13, 14, and 15
+– 51, 52, 53, 54, and 5
+
+Display the contents of array_1D.
+
+Display the contents of array_2D.
+
+Display the contents of array_3D.
+
+
+
+
+
+import numpy as np
+
+#1. 
+array_1D = np.array([10,11,12,13,14])
+
+#2. 
+array_2D = np.array([[20,30,40,50,60],[43,54,65,76,87],[11,22,33,44,55]])
+
+#3.
+array_3D = np.array([[[1,2,3,4,5],[11,21,31,41,51]],[[11,12,13,14,15],[51,52,53,54,5]]])
+
+#4.
+print(array_1D)
+
+#5.
+print(array_2D)
+
+#6.
+print(array_3D)
