@@ -1,0 +1,38 @@
+Dimensions and the Squeeze Function - Exercise #1
+Use conditional slicing and indexing to access the first row of the first 2D array inside array_3D, and examine the shape of the resulting selections:
+
+1.A
+Access the first row of the first 2D array in array_3D using exact indices for both dimensions.
+1.B
+Check the shape of the resulting object.
+2.A
+Access the first row of the first 2D array in array_3D using a slice for the first dimension and an exact index for the second dimension.
+2.B
+Check the shape of the resulting object.
+3.A
+Access the first row of the first 2D array in array_3D using slices for both dimensions (from the start up to index 1).
+3.B
+Check the shape of the obtained object.
+
+
+
+
+import numpy as np
+
+array_3D = np.array([[[1,2,3,4,5], [11,21,31,41,51]], [[11,12,13,14,15], [51,52,53,54,5]]])
+
+#1.A
+print(array_3D[0, 0])
+#1.B
+print(array_3D[0, 0].shape)
+ 
+#2.A
+print(array_3D[:1, 0])
+#2.B
+print(array_3D[:1, 0].shape)
+ 
+#3.A
+print(array_3D[:1, :1])
+#3.B
+print(array_3D[:1, :1].shape)
+
