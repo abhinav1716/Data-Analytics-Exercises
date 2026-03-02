@@ -1,0 +1,11 @@
+Characteristics of NumPy Functions - Exercise #1
+Use broadcasting to divide all rows of array_3D by array_1D.
+
+
+
+import numpy as np
+
+array_1D = np.array([10,11,12,13,14], dtype = np.float32)
+array_3D = np.array([[[1,2,3,4,5], [11,21,31,41,51]], [[11,12,13,14,15], [51,52,53,54,5]]], dtype = np.float32)
+
+print(np.divide(array_3D,array_1D))
