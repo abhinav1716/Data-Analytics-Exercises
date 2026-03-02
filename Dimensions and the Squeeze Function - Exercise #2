@@ -1,0 +1,15 @@
+Dimensions and the Squeeze Function - Exercise #2
+1. Since array_3D[:1,0] may include one or more redundant dimensions, use the squeeze() function to reduce them.
+
+2. Check the shape of the resulting array.
+
+
+
+import numpy as np
+
+array_3D = np.array([[[1,2,3,4,5], [11,21,31,41,51]], [[11,12,13,14,15], [51,52,53,54,5]]])
+
+#1,
+print(np.squeeze(array_3D[:1,0]))
+#2.
+print(np.squeeze(array_3D[:1,0]).shape)
